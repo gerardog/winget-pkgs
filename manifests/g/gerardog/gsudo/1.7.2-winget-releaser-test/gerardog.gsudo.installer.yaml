@@ -1,0 +1,23 @@
+# Created with YamlCreate.ps1 v2.1.3 using InputObject 🤖 $debug=QUSU.7-2-6
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.2.0.schema.json
+
+PackageIdentifier: gerardog.gsudo
+PackageVersion: 1.7.2-winget-releaser-test
+MinimumOSVersion: 10.0.0.0
+InstallerType: wix
+Scope: machine
+InstallerSwitches:
+  Silent: /quiet /norestart
+  SilentWithProgress: /passive /norestart
+UpgradeBehavior: install
+Commands:
+- gsudo
+- sudo
+ReleaseDate: 2022-10-21
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/gerardog/gsudo/releases/download/v1.7.2-winget-releaser-test/gsudoSetup.msi
+  InstallerSha256: 16BDBA67B9E23A3CA86F0F7D4EC35440C613DCC2BFFBD919491A92B502BBB010
+  ProductCode: '{D8ED51A6-B309-4B7E-9381-D7146E3CA85A}'
+ManifestType: installer
+ManifestVersion: 1.2.0

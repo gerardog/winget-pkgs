@@ -1,8 +1,8 @@
-# Modified with Sundry.
+# Created with WinGet Updater using komac v2.13.0
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.version.1.10.0.schema.json
 
-PackageIdentifier: Flameshot.Flameshot
-PackageVersion: 13.2.0
+PackageIdentifier: pbek.QOwnNotes
+PackageVersion: 25.11.2
 DefaultLocale: en-US
 ManifestType: version
 ManifestVersion: 1.10.0
